@@ -26,7 +26,6 @@ export const HomeTitle = styled.h1`
 export const HomeButton = styled(Link)`
   display: flex;
   max-width: 388px;
-  margin-bottom: 100px;
   min-height: 98px;
   background-color: #5efc8d;
   color: #000000;

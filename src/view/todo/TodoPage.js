@@ -48,6 +48,7 @@ export const TodoPage = () => {
   const navigate = useNavigate();
   const handleLogout = () => {
     auth.logout();
+    navigate(0);
     navigate("/");
     imgUp.setImage(null);
   };
