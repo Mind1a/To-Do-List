@@ -28,14 +28,6 @@ import {
   TodoRemoveImg,
 } from "./TodoPage.styled";
 
-const styled = {
-  width: "300px",
-  fontSize: "30px",
-  padding: "10px",
-  backgroundColor: "#ffff",
-  cursor: "pointer",
-};
-
 //
 // get todos from local storage
 const getTodosFromLS = () => {

@@ -11,11 +11,7 @@ export const MainPage = () => {
     <Home>
       <HomeMainImg />
       <HomeTitle> Keep Track Of Daily Tasks In Life </HomeTitle>
-      <HomeButton
-        to={
-          !auth.profileUsername && !auth.profileImg ? "/registration" : "/todo"
-        }
-      >
+      <HomeButton to={auth.profileImg ? "/todo" : "/registration"}>
         Get Started
       </HomeButton>
     </Home>
